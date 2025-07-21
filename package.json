@@ -1,9 +1,11 @@
 {
-  "name": "react-tailwind-css-starter-pack",
+  "name": "personal-site",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@emailjs/browser": "^4.4.1",
     "@headlessui/react": "^2.2.4",
+    "dotenv": "^17.2.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^7.7.0",
@@ -12,11 +14,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/thepranaygupta/react-tailwind-css-starter-pack.git"
+    "url": "git+https://github.com/kxnradd/Personal-Site/issues.git"
   },
-  "author": "Pranay Gupta",
+  "author": "Konrad Nowosielski",
   "bugs": {
-    "url": "https://github.com/thepranaygupta/react-tailwind-css-starter-pack/issues"
+    "url": "https://github.com/kxnradd/Personal-Site/issues"
   },
   "scripts": {
     "start": "react-scripts start",
