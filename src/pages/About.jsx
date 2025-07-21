@@ -1,8 +1,10 @@
 function About() {
   return (
-    <div className="text-center">
-      <h1 className="text-4xl font-bold mb-4">About Me</h1>
-      <p>This is the about page.</p>
+    <div className="min-h-screen flex items-center justify-center overflow-hidden">
+      <div className="text-center flex flex-col items-start p-4">
+        <h1 className="text-6xl font-bold mb-4">About me</h1>
+        <p className="text-lg">this is the about me page.</p>
+      </div>
     </div>
   );
 }
