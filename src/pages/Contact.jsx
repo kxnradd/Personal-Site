@@ -24,8 +24,7 @@ function Contact() {
   };
 
   return (
-    <div className="max-w-2xl mx-auto p-6 pt-36">
-      <h1 className="text-4xl font-bold mb-6 text-center">Contact Me</h1>
+    <div className="max-w-2xl mx-auto p-6 pt-48">
       <form ref = {formData} onSubmit={handleSubmit} className="space-y-4">
         <div>
           <input
@@ -33,7 +32,7 @@ function Contact() {
             name="name"
             placeholder="Your Name"
             value={formData.name}
-            className="w-full p-2 border rounded text-gray-900"
+            className="w-full p-2 border rounded border-black text-gray-900"
             required
           />
         </div>
@@ -43,7 +42,7 @@ function Contact() {
             name="email"
             placeholder="Your Email"
             value={formData.email}
-            className="w-full p-2 border rounded text-gray-900"
+            className="w-full p-2 border rounded border-black text-gray-900"
             required
           />
         </div>
@@ -53,7 +52,7 @@ function Contact() {
             name="subject"
             placeholder="Subject"
             value={formData.subject}
-            className="w-full p-2 border rounded text-gray-900"
+            className="w-full p-2 border rounded border-black text-gray-900"
             required
           />
         </div>
@@ -62,13 +61,13 @@ function Contact() {
             name="message"
             placeholder="Your Message"
             value={formData.message}
-            className="w-full p-2 border rounded h-32 text-gray-900"
+            className="w-full p-2 border rounded border-black h-32 text-gray-900"
             required
           />
         </div>
         <button
           type="submit"
-          className="w-full bg-red-500 text-white py-2 px-4 rounded hover:bg-red-700"
+          className="w-full dark:bg-red-600 bg-green-500 dark:text-white text-black py-2 px-4 rounded dark:hover:bg-red-800 hover:bg-green-600"
         >
           Send Message
         </button>
