@@ -13,7 +13,7 @@ const Layout = () => {
           </div>
       </nav>
 
-      <main className="pt-40 pb-16 min-h-screen bg-gray-100 dark:bg-black text-black dark:text-white p-4">
+      <main className="pb-16 min-h-screen bg-gray-100 dark:bg-black text-black dark:text-white p-4">
         <Outlet />
       </main>
       <footer className="fixed bottom-0 w-full text-center text-sm bg-gray-100 dark:bg-black text-black dark:text-white p-4 border-t-2 dark:border-gray-100 border-black">
